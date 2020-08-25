@@ -23,7 +23,7 @@ struct MVVMView: View {
                         .offset(y: animation ? UIScreen.main.bounds.height / 2.5 : 0)
                         .animation(.easeInOut(duration: 2))
                     
-                    Text("    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor aliquam maximus. Vestibulum vitae pulvinar lectus. Aenean non laoreet libero, quis tincidunt leo. Mauris ac bibendum eros. Nunc vitae orci purus. Aliquam in lorem nec quam posuere dapibus in sit amet ligula. Donec tristique turpis arcu, vel tincidunt nibh dictum tristique. Vestibulum consequat dignissim justo, aliquet tincidunt dolor fringilla nec. Duis imperdiet congue justo et pulvinar. In posuere fringilla sapien, venenatis sollicitudin felis ultrices sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin rhoncus risus mi, sit amet viverra felis dapibus eget. Quisque ornare, neque a iaculis efficitur, risus velit malesuada turpis, quis tincidunt dolor ante eu massa.")
+                    Text(" Model-View-ViewModel (MVVM) is a structural design pattern that separates objects into three distinct groups: Models hold application data. They're usually structs or simple classes. Views display visual elements and controls on the screen. They're typically subclasses of UIView .")
                         .font(.body)
                         .foregroundColor(.gray)
                         .lineSpacing(10)

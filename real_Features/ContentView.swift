@@ -19,31 +19,31 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selected) {
             DictionaryView().tabItem({
-                Image(systemName: "Venue.fill")
+                Image(systemName: "venue")
                     .font(.title)
-                Text("Home")
+                //Text("SwiftUI")
             }).tag(0)
             
             MapView().tabItem({
-                Image(systemName:"map.fill")
+                Image(systemName:"map")
                     .font(.title)
                 Text("Map")
             }).tag(1)
             
             MVVMView().tabItem({
-                Image(systemName:"BookMark.fill")
+                Image(systemName:"location")
                     .font(.title)
                 Text("MVVM")
             }).tag(2)
             
             PostListView().tabItem({
-                Image(systemName:"api.fill")
+                Image(systemName:"api")
                     .font(.title)
                 Text("PostList")
             }).tag(3)
             
             notification().tabItem({
-                Image(systemName:"notify.fill")
+                Image(systemName:"notify")
                     .font(.title)
                 Text("Notify")
             }).tag(3)
